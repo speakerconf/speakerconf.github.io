@@ -151,6 +151,36 @@ body {
   margin: 0;
 }
 
+/*
+ * Hypheniation for justified text
+ */
+
+body {
+  -webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+abbr,
+acronym,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  -webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-o-hyphens: none;
+	hyphens: none;
+}
+
 /* =============================================================================
    Links
    ========================================================================== */
