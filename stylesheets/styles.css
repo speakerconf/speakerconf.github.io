@@ -819,6 +819,9 @@ section #title .credits.left {
 section #title .credits.right {
   float: right;
 }
+#quote_wrap {
+  margin-bottom: 20px;
+}
 
 @media print, screen and (max-width: 720px) {
   #title .credits {
