@@ -856,6 +856,16 @@ footer .credits.right {
   margin-bottom: 20px;
 }
 
+div.speakers {
+  -moz-column-count:3; /* Firefox */
+  -webkit-column-count:3; /* Safari and Chrome */
+  column-count:3;
+
+  -moz-column-gap:40px; /* Firefox */
+  -webkit-column-gap:40px; /* Safari and Chrome */
+  column-gap:40px;
+}
+
 @media print, screen and (max-width: 720px) {
   #title .credits {
     display: block;
