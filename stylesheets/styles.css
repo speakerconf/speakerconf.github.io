@@ -839,17 +839,17 @@ section #title p {
   font-size: 18px;
   text-align: center;
 }
-section #title .credits {
+footer .credits {
   font-size: 11px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
 }
-section #title .credits.left {
+footer .credits.left {
   float: left;
 }
-section #title .credits.right {
+footer .credits.right {
   float: right;
 }
 #quote_wrap {
