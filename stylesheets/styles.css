@@ -897,3 +897,17 @@ div.speakers {
     display: none;
   }
 }
+
+ul.sponsors {
+  list-style: none;
+  margin-left: -40px;
+}
+ul.sponsors li {
+  background: white;
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+ul.sponsors img {
+  width: 250px;
+}
